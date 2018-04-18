@@ -1,0 +1,18 @@
+{
+  "name": "Flying Links",
+  "manifest_version": 2,
+  "version": "0.1",
+
+  "description": "Launch a content script when the browser action is clicked (icon from https://www.flaticon.com/free-icon/robotic-arm_74887)",
+
+  "browser_action": {
+    "default_icon": "robotic-arm.png",
+    "default_title": "Make links fly away when you try to click them"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
